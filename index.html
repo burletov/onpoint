@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="layout">
+      <section class="sectionName" id="section1">
+        <div class="sectionName__slider1">
+          <h1 class="sectionName__title1">Всегда ли цели терапии СД2 на поверхности?</h1>
+          <ul class="list">
+            <li class="list__item1">
+              <div class="list__content">
+                <div class="ellipse1">
+                  <div class="ellipse1__item1"></div>
+                  <div class="ellipse1__item2"></div>
+                </div>
+                <p class="list__text list__text--pos">Цель по HbA1c </p>
+              </div>
+            </li>
+            <li class="list__item2"> 
+              <div class="list__content">
+                <p class="list__text">Гипогликемия</p>
+                <div class="ellipse2">
+                  <div class="ellipse2__item1"></div>
+                  <div class="ellipse2__item2"></div>
+                </div>
+              </div>
+            </li>
+            <li class="list__item3"> 
+              <div class="list__content">
+                <p class="list__text">Осложнения СД</p>
+                <div class="ellipse3">
+                  <div class="ellipse3__item1"></div>
+                  <div class="ellipse3__item2"></div>
+                </div>
+              </div>
+            </li>
+            <li class="list__item4"> 
+              <div class="list__content">
+                <p class="list__text">CC риски</p>
+                <div class="ellipse4">
+                  <div class="ellipse4__item1"></div>
+                  <div class="ellipse4__item2"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="arrow">
+          <img class="arrow__img" src="img/rise.png" alt="Figure"/>
+          <span class="arrow__text">Листайте вниз</span>
+          <a class="arrow__btn" href="#section2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="86.406" height="43.281" viewBox="0 0 86.406 43.281" id="arrow__btn">
+                <path class="cls-1" d="M3.285,3L44.5,40.38,84.684,3" transform="translate(-0.781 -0.5)"/>
+            </svg>
+            </a>
+        </div>
+      </section>
+      <section class="sectionName" id="section2">
+        <div class="sectionName__slider2">
+          <h1 class="sectionName__title"> Основа терапии — патогенез СД2</h1>
+        </div>
+      </section>
+      <section class="sectionName sectionName--last" id="section3">
+        <div class="slider">
+          <div class="slider__item1">
+            <h2 class="slider__item-title">Звенья патогенеза СД2</h2>
+          </div>
+          <div class="slider__item2">
+            <h2 class="slider__item-title">Смертельный октет</h2>
+          </div>
+          <div class="slider__item3">
+            <h2 class="slider__item-title">Звенья патогенеза СД2</h2>
+          </div>
+        </div>
+        <div class="range">
+          <div class="range__box">
+            <label>
+              <input class="range__slide" type="range" min="1" max="100" value="100"/>
+            </label>
+            <div class="range__value"></div>
+          </div>
+          <div class="range__years"><span class="range__year">1988</span><span class="range__year">2009</span><span class="range__year">2016</span></div>
+        </div>
+      </section>
+    </div>
+    <div class="pagination"><a class="pagination__item pagination__item--active" href="#section1" data-slider-target-index="1"></a><a class="pagination__item" href="#section2" data-slider-target-index="2"></a><a class="pagination__item" href="#section3" data-slider-target-index="3"></a></div>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
